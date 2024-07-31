@@ -4,7 +4,7 @@
 }
 
 body{
-  background-color: #fd81ac;
+  background-color: #5c92e4;
 }
 
 .title {
@@ -57,7 +57,7 @@ button{
 }
   
 .yes:hover{
-    color: black;
+    color: rgb(147, 48, 212);
     cursor:pointer;
     border-radius: 50%;
     font-weight: bold;
@@ -82,7 +82,11 @@ button{
 
 .img2{
   max-width: 100%;
-  height: auto;
+  transition: object-position 2s;
+  margin-left: 40.8%;
+  margin-top: 5%;
+  clip-path: inset(26% 26% 26% 26%);
+  cursor: pointer;
 }
 
 .img:hover{
