@@ -72,21 +72,19 @@ button{
   }
 
 .img{
-  max-width: 100%;
-  transition: object-position 2s;
-  margin-left: 40.8%;
-  margin-top: 5%;
-  clip-path: inset(26% 26% 26% 26%);
-  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .img2{
-  max-width: 100%;
-  transition: object-position 2s;
-  margin-left: 40.8%;
-  margin-top: 5%;
-  clip-path: inset(26% 26% 26% 26%);
-  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .img:hover{
